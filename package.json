@@ -1,0 +1,12 @@
+{
+  "name": "grandcodex-backend",
+  "private": true,
+  "description": "Back end GrandCodex: API penyimpanan (SQLite) + penyaji berkas front end. Tanpa dependensi.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:wifi": "HOST=0.0.0.0 node server.js",
+    "start:lan": "HOST=0.0.0.0 node server.js"
+  },
+  "engines": { "node": ">=22.13" }
+}
